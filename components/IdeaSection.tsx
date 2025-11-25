@@ -4,7 +4,7 @@ const IdeaSection = () => {
   return (
     <section className="py-20 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+        <h2 className="text-center mb-4" style={{ fontSize: '42px', fontWeight: '400' }}>
           Get In Touch
         </h2>
         <p className="text-center text-gray-600 mb-12">

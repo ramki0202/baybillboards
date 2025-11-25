@@ -24,7 +24,7 @@ export default function NewLocations() {
           <p className="text-xs tracking-widest text-gray-500 mb-4">
             All-in-One Billboard Services
           </p>
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+          <h2 className="mb-6" style={{ fontSize: '42px', fontWeight: '400' }}>
             Premium Billboard Locations
           </h2>
           <p className="text-sm md:text-base text-gray-600 max-w-3xl mx-auto">

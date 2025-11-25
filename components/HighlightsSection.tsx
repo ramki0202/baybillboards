@@ -9,7 +9,7 @@ const HighlightsSection = () => {
           <p className="mb-4 text-xs font-medium tracking-[0.25em] text-neutral-500 uppercase">
             Site Highlights
           </p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-neutral-900">
+          <h2 className="text-neutral-900" style={{ fontSize: '42px', fontWeight: '400' }}>
             Premium Sites Across
             <br className="hidden sm:block" />
             Hawke&apos;s Bay
