@@ -5,13 +5,16 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-[2fr_2fr_1fr] gap-10 mb-12">
           {/* Bay Billboards Section */}
           <div>
             <h3 className="text-sm font-semibold text-gray-500 uppercase mb-4">
               BAY BILLBOARDS
             </h3>
-            <h4 className="text-2xl font-bold text-gray-900">
+            <h4
+              className="text-gray-900"
+              style={{ fontSize: "32px", fontWeight: "400" }}
+            >
               High-Visibility Billboards in Hawkes Bay
             </h4>
           </div>

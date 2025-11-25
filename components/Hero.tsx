@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 export default function Hero() {
@@ -24,7 +25,13 @@ export default function Hero() {
         />
         <a
           href="#enquire"
-          className="bg-red-500 text-white text-sm md:text-base font-medium px-5 py-2 rounded shadow hover:bg-red-600 transition"
+          className="bg-red-500 text-white text-sm md:text-base font-medium px-5 py-2 rounded shadow hover:bg-red-600 transition scroll-smooth"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById("enquire")?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
         >
           Enquire now
         </a>

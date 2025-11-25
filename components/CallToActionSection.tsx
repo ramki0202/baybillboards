@@ -8,7 +8,7 @@ const CallToActionSection = () => {
     >
       <div className="absolute inset-0 "></div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h2 className="mb-6" style={{ fontSize: '42px', fontWeight: '400' }}>
+        <h2 className="mb-6" style={{ fontSize: "42px", fontWeight: "400" }}>
           All we need is your idea
         </h2>
         <p className="text-lg leading-relaxed text-gray-800">
