@@ -2,7 +2,7 @@ import React from "react";
 
 const IdeaSection = () => {
   return (
-    <section className="py-20 px-6 bg-white" id="enquire">
+    <section className="py-[60px] lg:py-[120px] px-6 bg-white" id="enquire">
       <div className="max-w-4xl mx-auto">
         <h2
           className="text-center mb-4"
