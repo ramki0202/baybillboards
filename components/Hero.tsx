@@ -30,8 +30,8 @@ export default function Hero() {
         </a>
       </div>
       {/* Center heading */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center px-6 md:px-16">
-        <h1 className="text-white text-4xl md:text-6xl font-semibold leading-tight max-w-5xl text-center">
+      <div className="absolute inset-0 flex flex-col justify-end items-center px-6 md:px-16 pb-24 md:pb-32">
+        <h1 className="text-white font-semibold leading-tight max-w-5xl text-center" style={{ fontSize: '72px' }}>
           High-Visibility Billboards
           <span className="block mt-4">in Hawke&apos;s Bay</span>
         </h1>

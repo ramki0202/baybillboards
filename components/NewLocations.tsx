@@ -18,7 +18,7 @@ export default function NewLocations() {
   const swiperRef = useRef<SwiperType | null>(null);
 
   return (
-    <section className="bg-white py-16" id="new-locations">
+    <section className="bg-white py-[60px] lg:py-[120px]" id="new-locations">
       <div className="max-w-7xl mx-auto px-6 mb-12">
         <div className="text-center">
           <p className="text-xs tracking-widest text-gray-500 mb-4">
