@@ -19,7 +19,7 @@ export default function GallerySection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <p className="text-xs tracking-widest text-gray-500 mb-4">OUR WORK</p>
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6">Gallery</h2>
+          <h2 className="mb-6" style={{ fontSize: '42px', fontWeight: '400' }}>Gallery</h2>
           <p className="text-sm md:text-base text-gray-600 max-w-3xl mx-auto">
             Browse through our collection of billboard campaigns and designs.
           </p>
