@@ -25,7 +25,7 @@ export default function Hero() {
         />
         <a
           href="#enquire"
-          className="bg-red-500 text-white text-sm md:text-base font-medium px-5 py-2 rounded shadow hover:bg-red-600 transition scroll-smooth"
+          className="bg-red-500 text-white text-sm md:text-base font-medium px-5 py-2 rounded shadow hover:bg-red-600 transition scroll-smooth cursor-pointer z-50"
           onClick={(e) => {
             e.preventDefault();
             document.getElementById("enquire")?.scrollIntoView({
