@@ -4,9 +4,9 @@ const CallToActionSection = () => {
   return (
     <section
       className="py-20 px-6 relative overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url(/image/Frame 32.png)" }}
+      style={{ backgroundImage: "url(/image/bay-bg-yellow.png)" }}
     >
-      <div className="absolute inset-0 bg-white/70"></div>
+      <div className="absolute inset-0 "></div>
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           All we need is your idea
