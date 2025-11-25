@@ -67,7 +67,7 @@ export default function GallerySection() {
           >
             {galleryImages.map((image, index) => (
               <SwiperSlide key={index}>
-                <div className="relative w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-lg">
+                <div className="relative  min-w-[600px] h-[600px] md:h-[500px] rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src={image.src}
                     alt={image.alt}

@@ -15,7 +15,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/40" />
       {/* Top bar */}
-      <div className="absolute top-0 left-0 w-full flex justify-between items-start p-6 md:p-10">
+      <div className="absolute top-0 left-0 w-full flex justify-between items-center p-6 md:p-10">
         <Image
           src="/image/bay-billboards.png"
           alt="Bay Billboards logo"
